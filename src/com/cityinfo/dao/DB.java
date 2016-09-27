@@ -9,8 +9,8 @@ import java.sql.SQLException;
 public class DB {
 	private Connection conn;
 	private PreparedStatement pstm;
-	private String user = "root";
-	private String pass = "1214";
+	private String user = "";
+	private String pass = "";
 	private String driver = "com.mysql.jdbc.Driver";
 	private String url = "jdbc:mysql://localhost/db_cityinfo";
 	
